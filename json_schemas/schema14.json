@@ -1,0 +1,33 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "albumId": {
+        "type": "integer",
+        "enum": [
+          1
+        ]
+      },
+      "id": {
+        "type": "integer"
+      },
+      "title": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string"
+      },
+      "thumbnailUrl": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "albumId",
+      "id",
+      "title",
+      "url",
+      "thumbnailUrl"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "postId": {
+        "type": "integer",
+        "enum": [
+          1
+        ]
+      },
+      "id": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "body": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "postId",
+      "id",
+      "name",
+      "email",
+      "body"
+    ]
+  }
+}
